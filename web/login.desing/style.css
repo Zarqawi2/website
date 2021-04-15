@@ -1,0 +1,41 @@
+body{
+background-color: #4adede;
+
+}
+form{
+
+ margin: 200px ;
+ padding: 30px ;
+ text-align: center;
+ background-color: rgb(92, 94, 95);
+ width: 200px;
+ border-radius: 20px;
+ height: 200px;
+ border:turquoise;
+}
+form input{
+    position:blocked;
+    padding: 10px;
+    margin: 5px;
+    border:none;
+    border-color: #4adede;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px white;
+    color:rgb(80, 80, 80);
+    transition: 0.5s;
+}
+form input:hover{
+    background-color:turquoise;
+    border-color: turquoise;
+}
+form a{
+    color:#1b1d1d;
+    position: absolute;top: 440px;left: 635px;
+    font-family:cursive;
+    font-size: 10px;
+    text-decoration: none;
+}
+form a:hover{
+    color: #4adede;
+}
+
